@@ -1,5 +1,11 @@
+import { Player } from '../components/player'
+
 function App() {
-	return <h1 className="text-3xl underline">Hello world!</h1>
+	return (
+		<main className="mx-auto mt-8 flex min-h-screen max-w-6xl flex-col items-center">
+			<Player />
+		</main>
+	)
 }
 
 export { App }
