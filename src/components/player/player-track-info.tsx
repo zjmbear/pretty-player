@@ -12,7 +12,7 @@ const PlayerTrackInfo = ({
 	...props
 }: PlayerTrackInfoProps) => {
 	return (
-		<div className={cn('flex flex-col', className)} {...props}>
+		<div className={cn('flex select-none flex-col', className)} {...props}>
 			<a
 				href={track.artist.url}
 				target="_blank"

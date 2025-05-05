@@ -11,7 +11,7 @@ const PlayerCover = ({ track }: PlayerCoverProps) => {
 			<img
 				src={track?.album.coverUrl ?? track?.coverArtUrl}
 				alt={track?.album.name ?? track?.name}
-				className="h-full w-[207px] bg-cover"
+				className='h-full w-[207px] select-none bg-cover'
 			/>
 		</div>
 	)
