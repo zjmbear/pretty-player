@@ -12,7 +12,7 @@ type Track = {
 	artist: Artist
 	album: Album
 	duration: number
-	releaseDate: Date
+	releasedDate: Date
 	genre: string
 	coverArtUrl: string
 	url: string

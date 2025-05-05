@@ -12,7 +12,7 @@ const Player = () => {
 		coverArtUrl: '',
 		duration: 200,
 		genre: 'Rock',
-		releaseDate: new Date('2016-06-17'),
+		releasedDate: new Date('2016-06-17'),
 		url: 'https://www.youtube.com/channel/UCEuOwB9vSL1oPKGNdONB4ig',
 		artist: {
 			id: '1',
